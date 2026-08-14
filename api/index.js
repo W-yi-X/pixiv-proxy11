@@ -1,7 +1,7 @@
 /** Vercel Edge Function - Pixiv API 反代 */
 const ENABLE_API_PROXY = true;
 const ENABLE_IMAGE_PROXY = true;
-const ENABLE_OAUTH_PROXY = false;
+const ENABLE_OAUTH_PROXY = true;
 
 const PIXIV_API_HOST = 'app-api.pixiv.net';
 const PIXIV_OAUTH_HOST = 'oauth.secure.pixiv.net';
